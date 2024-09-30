@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style_guess.css">
+    <link rel="shortcut icon" href="imagens_guess/charada.ico" type="image/x-icon">
+
+    <title>Adivinhação</title>
+</head>
+<body>
+    <p>Adivinhe o número entre 1 a 100!</p>
+    <input class="entradas" id="chute" type="text">
+    <br>
+    <input class="entradas" type="button" value="Enviar" onclick="envie();">
+
+    <p id="numeroCerto"></p>
+
+    <div>
+        <p>Tentativas menores que a certa:</p>
+        <p id="menores"></p>
+    </div>
+    <br>
+    <div>
+        <p>Tentativas maiores que a certa:</p>
+        <p id="maiores"></p>
+    </div>
+
+    <div>
+        <a href="https://www.google.com/search?q=charada+dc&oq=chara&aqs=chrome.0.69i59j69i57j69i59j0i67i433i650j0i131i433i512j0i67i650l2j69i60.3752j0j7&sourceid=chrome&ie=UTF-8"><img src="imagens_guess/charada.webp" alt="Charada" width="150" id="charada-img"></a>
+        <p>O Charada deseja um ótimo jogo pra você &#x1F642;</p>
+    </div>
+
+    <script src="script_guess.js"></script>
+</body>
+</html>

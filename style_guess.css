@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(47, 79, 55);
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+    text-shadow: #420080 0 2px;
+}
+.entradas{
+    margin: 5px;
+    text-align: center;
+}
+
+#chute{
+    color: #420080;
+    font-size: 17pt;
+}
+
+#numeroCerto{
+    font-size: 20pt;
+    background-color: #420080;
+    border: solid whitesmoke 1px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(216, 216, 71);
+}
+
+#menores{
+    color: white;
+    background-color: #f30000b9;
+    display: flex;
+    justify-content: center;
+    border: solid whitesmoke 1px;
+    font-size: 20pt;
+}
+
+#maiores{
+    color: white;
+    background-color: #f30000b9;
+    display: flex;
+    justify-content: center;
+    border: solid whitesmoke 1px;
+    font-size: 20pt;
+}
+
+#charada-img:hover{
+    scale: 1.1;
+}
